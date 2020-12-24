@@ -2,7 +2,8 @@ class Student
   attr_accessor :id, :name, :grade
 
   def self.new_from_db(row)
-    student = student.new
+    student = self.new 
+    student
   end
 
   def self.all
