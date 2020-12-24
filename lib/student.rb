@@ -75,7 +75,7 @@ end
 
     DB[:conn].execute(sql, self.name, self.grade)
   end
-end
+
   
   def self.create_table
     sql = <<-SQL
